@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angel's Personal Profile</title>
+<style>
+  body {
+    background-color: #ffe6f0;
+    color: #4d004d;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  h1, h2 {
+    color: #cc0066;
+    text-align: center;
+  }
+  hr {
+    border: none;
+    height: 3px;
+    background-color: #cc66a2;
+    margin: 20px 0;
+  }
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(204, 0, 102, 0.2);
+    margin: 10px;
+  }
+  table {
+    background-color: #fff0f5;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(204, 0, 102, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  thead {
+    background-color: #ffb6c1;
+  }
+  th, td {
+    padding: 10px 15px;
+    text-align: center;
+  }
+  tr:hover {
+    background-color: #ffe6f0;
+  }
+  ul, ol {
+    padding-left: 20px;
+  }
+  a {
+    color: #cc0066;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #99004d;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cc66a2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  input[type="submit"] {
+    background-color: #cc0066;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #99004d;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header Section -->
+<h1>🌸 Angel 🌸</h1>
+<p style="text-align:center;"><em>Welcome to my personal profile page — soft, sweet, and full of creativity!</em></p>
+<div style="text-align:center;">
+  <img src="https://i.pinimg.com/originals/22/85/0a/22850a2f662552b111fedfa810243ba0.jpg" alt="Chihiro from Studio Ghibli" width="300" height="160">
+</div>
+<hr>
+
+<!-- About Me -->
+<h2>🌷 About Me</h2>
+<p>
+Hi! I'm <strong>Angel</strong>, a passionate learner who loves arts, writing, reading, and exploring art theory.
+I find joy in <u>technology</u>, <i>visual storytelling</i>, and anything that blends structure with beauty.
+Here’s a glimpse of one of my favorite inspirations:
+</p>
+
+<!-- Hobbies Section -->
+<h2>🌼 My Hobbies</h2>
+<ul>
+  <li>🌸 Doing Artworks</li>
+  <li>🌺 Reading</li>
+  <li>🌼 Taking care of my pets</li>
+  <li>🌷 Sleeping</li>
+</ul>
+<div style="text-align:center;">
+  <img src="https://via.placeholder.com/250x150?text=Creative+Workspace" alt="Creative Workspace">
+  <img src="https://via.placeholder.com/300x180?text=Art+and+Code" alt="Art and Code">
+</div>
+
+<!-- Favorite Websites -->
+<h2>🌹 Favorite Websites</h2>
+<ol>
+  <li><a href="https://bato.to" target="_blank">Bato.to (Manhwa)</a></li>
+  <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+  <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+  <li><a href="https://www.messenger.com" target="_blank">Messenger</a></li>
+  <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
+  <li><a href="https://www.spotify.com" target="_blank">Spotify</a></li>
+  <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+  <li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
+  <li><a href="https://manhwascan.net" target="_blank">Manhwa Scans</a></li>
+  <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+</ol>
+
+<!-- Schedule Table -->
+<h2>🌸 My Weekly Schedule</h2>
+<table>
+<thead>
+<tr>
+  <th>Day</th>
+  <th>Activity</th>
+  <th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Monday</td>
+  <td>Network Design Practice</td>
+  <td>9:00 AM - 12:00 PM</td>
+</tr>
+<tr>
+  <td>Tuesday</td>
+  <td>Java Coding Session</td>
+  <td>2:00 PM - 5:00 PM</td>
+</tr>
+<tr>
+  <td>Wednesday</td>
+  <td>Art Theory Exploration</td>
+  <td>1:00 PM - 3:00 PM</td>
+</tr>
+<tr>
+  <td>Thursday</td>
+  <td>Home chores</td>
+  <td>10:00 AM - 1:00 PM</td>
+</tr>
+<tr>
+  <td>Friday</td>
+  <td>Project Review & Debugging</td>
+  <td>3:00 PM - 6:00 PM</td>
+</tr>
+</tbody>
+</table>
+<br>
+
+<!-- Contact Form -->
+<h2>🌷 Contact Me</h2>
+<form>
+  <label for="name"><strong>Name:</strong></label>
+  <input type="text" id="name" name="name">
+
+  <label for="email"><strong>Email:</strong></label>
+  <input type="email" id="email" name="email">
+
+  <label for="message"><strong>Message:</strong></label>
+  <textarea id="message" name="message" rows="4" placeholder="Let’s talk networks, creativity, or Studio Ghibli!"></textarea>
+
+  <input type="submit" value="Send">
+</form>
+
+<hr>
+<p style="text-align:center;"><small>© 2025 Angel - My Personal Profile 🌸</small></p>
+
+</body>
+</html>
